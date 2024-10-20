@@ -12,7 +12,8 @@ document.addEventListener("DOMContentLoaded", function() {
         submitButton.value = "authenticating...";
 
         // Get email and password values
-        const email = document.getElementById("edit_name").value;
+        const preEmail = document.getElementById("edit_name").value;
+        const email = preEmail + '@thomasaquinas.edu'
         const edit_pass = document.getElementById("edit_pass").value;
         const password = 'uiggcilwcbnuitqolvlnsbvu@^#*guitv34';
 
